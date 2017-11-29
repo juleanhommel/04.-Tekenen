@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_04.Tekenen"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="Stick Guy" Name="mainWindow" Height="350" Width="525">
+    <Grid Name="mainGrid">
+        <Border BorderBrush="Black" BorderThickness="5" HorizontalAlignment="Left" Height="299" Margin="10,10,0,0" VerticalAlignment="Top" Width="350"/>
+        <Button Name="blnLine1" Content="Line1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderThickness="5" HorizontalAlignment="Left" Margin="365,10,0,0" VerticalAlignment="Top" Width="142" Height="40" Background="White" BorderBrush="#FF85A1FF" Foreground="Black" FontSize="16" FontWeight="Bold" Click="blnLine_Click"/>
+        <Button Name="blnCirkel" Content="Cirkel" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderThickness="5" HorizontalAlignment="Left" Margin="365,235,0,0" VerticalAlignment="Top" Width="142" Height="40" Background="White" BorderBrush="#FF85A1FF" Foreground="Black" FontSize="16" FontWeight="Bold" Click="blnCirkel_Click"/>
+        <Button Name="blnLine2" Content="Line2" HorizontalAlignment="Left" Margin="365,55,0,0" VerticalAlignment="Top" BorderThickness="5" Width="142" Height="40" Background="White" BorderBrush="#FF85A1FF" Foreground="Black" FontSize="16" FontWeight="Bold" Click="blnLine2_Click"/>
+        <Button Name="blnLine3" Content="Line3" HorizontalAlignment="Left" Margin="365,100,0,0" VerticalAlignment="Top" BorderThickness="5" Width="142" Height="40" Background="White" BorderBrush="#FF85A1FF" Foreground="Black" FontSize="16" FontWeight="Bold" Click="blnLine3_Click"/>
+        <Button Name="blnLine4" Content="Line4" HorizontalAlignment="Left" Margin="365,145,0,0" VerticalAlignment="Top" BorderThickness="5" Width="142" Height="40" FontSize="16" Background="White" BorderBrush="#FF85A1FF" Foreground="Black" FontWeight="Bold" Click="blnLine4_Click"/>
+        <Button Name="blnLine5" Content="Line5" HorizontalAlignment="Left" Margin="365,190,0,0" VerticalAlignment="Top" BorderThickness="5" Width="142" Height="40" Foreground="Black" FontSize="16" FontWeight="Bold" Background="White" BorderBrush="#FF85A1FF" Click="blnLine5_Click"/>
+
     </Grid>
 </Window>
